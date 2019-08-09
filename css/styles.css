@@ -1,3 +1,49 @@
-.logoName{
+body{
+	margin: 20px 10%;
+}
+
+.header{
+	height: 160px;
+	border-bottom: 1px solid #cccccc;
+	margin-bottom: 20px;
+}
+
+.dev-tag{
+	color: #9AB5FF;
+}
+
+.logo-name{
 	float: left;
+}
+
+.logo-name a:hover{
+	text-decoration: none;
+}
+
+.img-container{
+	float: right;
+}
+
+.social-container{
+	font-size: 30px;
+}
+
+.fa-facebook-square{
+	color: #3b5998;
+}
+
+.fa-linkedin{
+	color: #0077B5;
+}
+
+.social-link{
+	margin-right: 10px;
+}
+
+.social-link:hover{
+	font-size: 35px;
+}
+
+.about-container{
+	
 }
