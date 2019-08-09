@@ -1,11 +1,9 @@
-body{
-	margin: 20px 10%;
-}
+
 
 .header{
+	margin: 20px 10%;
 	height: 160px;
 	border-bottom: 1px solid #cccccc;
-	margin-bottom: 20px;
 }
 
 .dev-tag{
@@ -48,6 +46,36 @@ body{
 	font-size: 35px;
 }
 
+section{
+	margin-top: 50px;
+	margin-left: 10%;
+	margin-right: 10%;
+	padding-bottom: 50px;
+}
+
+.large-text{
+	font-size: 30px;
+}
+
+.section-center{
+	display: flex;
+	justify-content: center;
+	border-bottom: 1px solid #cccccc;
+}
+
 .about-container{
-	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 80%;
+
+}
+
+.about-container p{
+	font-size: 20px;
+}
+
+.resume-container{
+	margin-top: 20px;
 }
